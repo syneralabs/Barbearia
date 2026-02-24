@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className='min-h-full bg-gray-900 relative'>
-      <header className='absolute inset-0 top-0 z-50 bg-amber-700 h-15'>
+      <header className='fixed top-0 left-0 w-full z-50 bg-amber-700 h-16'>
         <nav className='flex items-center justify-between px-6 lg:px-6'>
           <div className='flex lg:px-1'> 
             <a href="" className='m-1.5 p-1.5'>
@@ -26,6 +26,18 @@ function App() {
         {/* Final do nav */}
       
       </header>
+
+      <main className='pt-16'>
+        <div className=''>
+
+        </div>
+        <div className=''>
+
+        </div>
+        <div className=''>
+
+        </div>
+      </main>
     </div>
    
   )
