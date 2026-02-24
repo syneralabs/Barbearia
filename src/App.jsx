@@ -17,10 +17,10 @@ function App() {
             </a>
           </div>
           <div className='hidden lg:flex lg:gap-x-12'>
-            <a className='text-sm/6 font-semibold text-white' href="">Home</a>
-            <a className='text-sm/6 font-semibold text-white' href="">sobre</a>
-            <a className='text-sm/6 font-semibold text-white' href="">Cortes</a>
-            <a className='text-sm/6 font-semibold text-white' href="">Contato</a>
+            <a className='text-sm/6 font-semibold text-white' href="#">Home</a>
+            <a className='text-sm/6 font-semibold text-white' href="#">sobre</a>
+            <a className='text-sm/6 font-semibold text-white' href="#">Cortes</a>
+            <a className='text-sm/6 font-semibold text-white' href="#">Contato</a>
           </div>
         </nav> 
         {/* Final do nav */}
