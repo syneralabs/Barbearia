@@ -7,8 +7,8 @@ function App() {
   
 
   return (
-    <div className='min-h-full bg-gray-900'>
-      <header className='absolute inset-0 top-0 z-50 bg-amber-700'>
+    <div className='min-h-full bg-gray-900 relative'>
+      <header className='absolute inset-0 top-0 z-50 bg-amber-700 h-15'>
         <nav className='flex items-center justify-between px-6 lg:px-6'>
           <div className='flex lg:px-1'> 
             <a href="" className='m-1.5 p-1.5'>
@@ -17,10 +17,10 @@ function App() {
             </a>
           </div>
           <div className='hidden lg:flex lg:gap-x-12'>
-            <a className='text-sm/6 font-semibold text-black' href="">Home</a>
-            <a className='text-sm/6 font-semibold text-black' href="">sobre</a>
-            <a className='text-sm/6 font-semibold text-black' href="">Cortes</a>
-            <a className='text-sm/6 font-semibold text-black' href="">Contato</a>
+            <a className='text-sm/6 font-semibold text-white' href="">Home</a>
+            <a className='text-sm/6 font-semibold text-white' href="">sobre</a>
+            <a className='text-sm/6 font-semibold text-white' href="">Cortes</a>
+            <a className='text-sm/6 font-semibold text-white' href="">Contato</a>
           </div>
         </nav> 
         {/* Final do nav */}
